@@ -15,7 +15,7 @@
 			"value": "https://coviddatalakeviran.dfs.core.windows.net"
 		},
 		"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
-			"value": "https://github.com"
+			"value": "https://raw.githubusercontent.com"
 		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"value": "/subscriptions/a005e606-c561-4aac-b21b-9b5d488ce7d7/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/covidreportingviran"
