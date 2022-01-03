@@ -19,6 +19,10 @@
 			"type": "string",
 			"defaultValue": "https://coviddatalakeviran.dfs.core.windows.net"
 		},
+		"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://github.com"
+		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/a005e606-c561-4aac-b21b-9b5d488ce7d7/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/covidreportingviran"
@@ -58,6 +62,9 @@
 					},
 					"ls_datalake_covidreporting_dl_properties_typeProperties_url": {
 						"value": "[parameters('ls_datalake_covidreporting_dl_properties_typeProperties_url')]"
+					},
+					"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
+						"value": "[parameters('ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url')]"
 					},
 					"tr_ingest_population_data_properties_typeProperties_scope": {
 						"value": "[parameters('tr_ingest_population_data_properties_typeProperties_scope')]"
